@@ -1,16 +1,16 @@
-.gpt3__socialIcons {
+.portfolio__socialIcons {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.gpt3__socialIcons-icon {
+.portfolio__socialIcons-icon {
     color: white;
     border-radius: 50px;
     padding: 10px;
 }
 
-.gpt3__socialIcons-icon:hover {
+.portfolio__socialIcons-icon:hover {
     transition: 0.3s ease;
     background-color: #212d45;
     transform: scale(1.2);

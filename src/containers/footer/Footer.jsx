@@ -5,24 +5,19 @@ import { SocialIcons } from '../../components'
 
 const Footer = () => {
     return (
-        <div className="gpt3__footer section__padding" id="footer">
-            <div className="gpt3__footer-heading">
-                <h1 className="gradient__text">Let's make something special!</h1>
+        <div className="portfolio__footer" id="footer">
+            <div className="portfolio__footer-heading">
+                <h1>Let's make something special!</h1>
             </div>
 
-            <div className="gpt3__footer-links">
-                <div className="gpt3__footer-links_logo">
+            <div className="portfolio__footer-links">
+                <div className="portfolio__footer-links_logo">
                     <img src={gpt3Logo} alt="Kesici Logo" />
-                </div>
-                <div className="gpt3__footer-links_div">
-                    <h4>Get in touch</h4>
-                    <p>Gdansk Poland</p>
-                    <p>ibrahim.kesici@outlook.com</p>
                 </div>
                 <SocialIcons />
             </div>
 
-            <div className="gpt3__footer-copyright">
+            <div className="portfolio__footer-copyright">
                 <p>©2021 IK. All rights reserved.</p>
             </div>
         </div>

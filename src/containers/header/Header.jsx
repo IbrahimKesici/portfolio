@@ -5,17 +5,19 @@ import ai from "../../assets/ai.png";
 
 const Header = () => {
     return (
-        <div className="gpt3__header" id="home">
-            <div className="gpt3__header-content">
+        <div className="portfolio__header" id="home">
+            <div className="portfolio__header-content">
                 <h1 className="gradient__text">Hi there, I'm Ibrahim. Software Developer</h1>
                 <p>I design and code beautifully simple things and I love what I do. I currently live in ~~Gdansk~~ and have interest on different areas of technology</p>
                 
-                <div className="gpt3__header-content__input">
-                    <button type="button" href="#footer">Get in Touch</button>
+                <div className="portfolio__header-content__input">
+                    <a href="#footer">
+                        <button type="button">Get in Touch</button>
+                    </a>
                 </div>
 
             </div>
-            <div className="gpt3__header-image">
+            <div className="portfolio__header-image">
                 <img src={ai} alt="ai" />
             </div>
         </div>
