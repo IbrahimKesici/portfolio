@@ -1,0 +1,18 @@
+.gpt3__socialIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gpt3__socialIcons-icon {
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.gpt3__socialIcons-icon:hover {
+    transition: 0.3s ease;
+    background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
