@@ -59,12 +59,9 @@
     transition: 0.3s ease;
     background-color: #212d45;
     transform: scale(1.1);
+    background-position: left bottom;
     cursor: pointer;
 }
-
-.portfolio__header-content__input button:hover {
-    background-position: left bottom;
-  }
 
 .portfolio__header-image {
     flex: 1;

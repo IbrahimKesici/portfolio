@@ -24,21 +24,10 @@
 
 .portfolio__navbar-menu-link:hover, 
 .portfolio__navbar-links_logo:hover {
-    animation: shake 0.4s;
-    transition: 0.4s ease;
+    transition: 0.5s ease;
     cursor: pointer;
-
-    animation-iteration-count: infinite;
+    transform: scale(1.2);
 }
-
-@keyframes shake {
-    0% { transform:  scale(1.2) rotate(0deg); }
-    10%, 20%  { transform:  scale(1.2) rotate(-5deg); }
-    30%, 40% { transform:  scale(1.2) rotate(-7deg); }
-    50%, 60% { transform:  scale(1.2) rotate(-5deg); }
-    70%, 80% { transform:  scale(1.2) rotate(-2deg); }
-    90%, 100% { transform:  scale(1.2) rotate(0deg); }
-  }
 
 .portfolio__navbar-links_container {
     display: flex;

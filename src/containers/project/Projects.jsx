@@ -1,7 +1,7 @@
 import React from 'react';
 import './projects.css';
 import { ProjectCard } from '../../components';
-import { tradingBot } from './imports';
+import { tradingBot, weather, realEstate } from './imports';
 
 
 const projectsData = [
@@ -12,16 +12,16 @@ const projectsData = [
         repo: 'https://github.com/IbrahimKesici?tab=repositories'
     },
     {
-        title: 'Bot 2',
-        imageUrl: tradingBot,
-        description: 'With a mission of having successfull trades on high volatile markets such as crypto, I have applied harmonic trade patterns: Bat, Cypher, Shark, ABCD ... on timeseries and display the results on a webpage',
-        repo: ''
+        title: 'Weather App',
+        imageUrl: weather,
+        description: 'A fun project that I developed a weather app. I use a simple ETL process which I get weather temprature measurements from different weather stations in XML/JSON format, clean and present it to user on command line. Users can search for specific countries last two days weather tempratures',
+        repo: 'https://github.com/IbrahimKesici/weather_displayer'
     },
     {
-        title: 'Bot3',
-        imageUrl: tradingBot,
-        description: 'With a mission of having successfull trades on high volatile markets such as crypto, I have applied harmonic trade patterns: Bat, Cypher, Shark, ABCD ... on timeseries and display the results on a webpage',
-        repo: ''
+        title: 'Real Estate WebSite',
+        imageUrl: realEstate,
+        description: 'Developed to display rental homes and sale properties as a web application. It comes with advanced filtering and modern design.',
+        repo: 'https://github.com/IbrahimKesici/real-estate-app'
     }
 ];  
 

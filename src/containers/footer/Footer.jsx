@@ -11,9 +11,8 @@ const Footer = () => {
             </div>
 
             <div className="portfolio__footer-links">
-                <div className="portfolio__footer-links_logo">
-                    <img src={gpt3Logo} alt="Kesici Logo" />
-                </div>
+                <img src={gpt3Logo} alt="Kesici Logo" />
+
                 <SocialIcons />
             </div>
 
